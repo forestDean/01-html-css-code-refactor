@@ -4,16 +4,18 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- informative title -->
     <title>Horiseon</title>
     <!-- add favicon to clear GoogleDev Error 404 -->
 </head>
 
 <body>
-    <header class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
+    <header>
+        <!-- link logo to home page -->
+        <a href="#"><h1>Hori<span class="seo">seo</span>n</h1></a>
         <nav>
             <ul>
-                <li>
+                <li><!-- fix anchor id -->
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
@@ -25,11 +27,12 @@
             </ul>
         </nav>
     </header>
-    <header class="hero"></header>
+    <!-- add title to element as alt -->
+    <div class="hero"></div>
     <main>
         <section class="content">
-            <article class="search-engine-optimization">
-                <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+            <article id="search-engine-optimization" class="search-engine-optimization">
+                <img src="./assets/images/search-engine-optimization.jpg" alt="notepad with seo illustrations" class="float-left" />
                 <h2>Search Engine Optimization</h2>
                 <p>
                     The dominance of mobile internet use means that users are searching for the right business as they
@@ -38,7 +41,7 @@
                 </p>
             </article>
             <article id="online-reputation-management" class="online-reputation-management">
-                <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+                <img src="./assets/images/online-reputation-management.jpg" alt="open laptop diplaying a reputaion bar chart" class="float-right" />
                 <h2>Online Reputation Management</h2>
                 <p>
                     The web is full of opinions, and some of these can be negative. Social media allows anyone with an
@@ -47,7 +50,7 @@
                 </p>
             </article>
             <article id="social-media-marketing" class="social-media-marketing">
-                <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+                <img src="./assets/images/social-media-marketing.jpg" alt="group at table engaging in social media activities" class="float-left" />
                 <h2>Social Media Marketing</h2>
                 <p>
                     Social media continues to have a sizable influence on buying habits. Social media marketing helps you
@@ -87,7 +90,7 @@
     <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
-            <!-- add Javascript later to keep year current -->
+            <!-- *add Javascript later to keep year current -->
             &copy; 2023 Horiseon Social Solution Services, Inc.
         </p>
     </footer>
