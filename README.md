@@ -8,11 +8,11 @@ This week your challenge is an on-the-job ticket, which means you'll begin with 
  
 One of the most common tasks for front-end and junior developers is to take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) to meet a certain set of standards or implement a new technology. In this challenge, a marketing agency has hired you to refactor an existing site to make it more accessible. 
  
-Web accessibility is an increasingly important consideration for businesses. It ensures that people with disabilities can access a website using assistive technologies such as video captions, screen readers, and braille keyboards. Making a website accessible is also good for business for many reasons, one of them being that accessible sites are better positioned in search engines like Google. It also helps companies avoid litigation that can occur when people with disabilities cannot access their website.
+<mark>Web accessibility</mark> is an increasingly important consideration for businesses. It ensures that <mark>people with disabilities</mark> can access a website using assistive technologies such as video captions, screen readers, and braille keyboards. Making a website accessible is also good for business for many reasons, one of them being that <mark>accessible sites are better positioned in search engines like Google</mark>. It also helps companies <mark>avoid litigation</mark> that can occur when people with disabilities cannot access their website.
  
-Even though accessibility is a broad topic that can include complex requirements, your tech lead has given you a small list of specific criteria to satisfy the project. These criteria are documented below in the Acceptance Criteria.
+Even though accessibility is a broad topic that can include complex requirements, your tech lead has given you a small list of specific criteria to satisfy the project. <mark>These criteria are documented below in the Acceptance Criteria.</mark>
  
-**Important**: An important rule to follow when working with someone else's code is the **Scout Rule**, which recommends that you always leave the code a little cleaner than when you found it.
+**Important**: An important rule to follow when working with someone else's code is the **<mark>Scout Rule</mark>**, which recommends that you <mark>always leave the code a little cleaner than when you found it.</mark>
 
 To impress clients, you should always go the extra mile and improve the codebase for long-term sustainability. For example, make sure that all links are functioning correctly. Also, rework the CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
 
@@ -30,11 +30,11 @@ SO THAT our own site is optimized for search engines
 
 Your website must meet accessibility standards. You can achieve this completing the following:
 
-* Semantic HTML elements can be found throughout the source code
+* <mark>Semantic HTML elements can be found throughout the source code
 * HTML elements follow a logical structure independent of styling and positioning
 * Image and icon elements contain accessible `alt` attributes
 * Heading attributes fall in sequential order
-* Title elements contain a concise, descriptive title
+* Title elements contain a concise, descriptive title</mark>
 
 ### Resources:
 
@@ -47,7 +47,7 @@ The following image shows the web application's appearance and functionality:
 
 ![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](Assets/01-html-css-git-challenge-demo.png)
 
-> **Note**: This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px. Eventually you'll learn how to make elements responsive so that your web application is optimized for any screen size.
+> **Note**: <mark>This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px. Eventually you'll learn how to make elements responsive so that your web application is optimized for any screen size.</mark>
 
 ### Getting Started
 
@@ -65,7 +65,7 @@ Follow these instructions to create your project and deploy it to GitHub Pages:
 
 You can also refer to this [YouTube video on enabling GitHub Pages](https://youtu.be/P4Mu1t5rIXg) for more guidance.
 
-> **Important**: It might take a few minutes for GitHub pages to display your site correctly. If your project does not deploy or display correctly, check that all file paths in your application are relative and use the right casing. GitHub is case-sensitive, an inccorect capital or lowercase letter could cause problems in deployment.
+> **Important**: It might take a few minutes for GitHub pages to display your site correctly. If your project does not deploy or display correctly, check that all file paths in your application are relative and use the right casing. <mark>GitHub is case-sensitive, an incorrect capital or lowercase letter could cause problems in deployment.</mark>
 
 Be sure to add, commit, and push your work to see the most up-to-date version of your app!
 
@@ -77,25 +77,25 @@ This challenge is assessed on the following criteria:
 
 * Satisfies all of the above acceptance criteria plus the following code improvements:
 
-  * Application's links all function correctly.
+  * <mark>Application's links all function correctly.
 
   * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
 
-  * Application's CSS file is properly commented.
+  * Application's CSS file is properly commented.</mark>
 
 #### Deployment: 32%
 
-* Application deployed at live URL.
+* <mark>Application deployed at live URL.
 
 * Application loads with no errors.
-
+</mark>
 * Application GitHub URL submitted.
 
 * GitHub repository that contains application code.
 
 #### Application Quality: 15%
 
-* Application resembles (at least 90%) screenshots provided in the challenge instructions.
+* <mark>Application resembles (at least 90%) screenshots provided in the challenge instructions.</mark>
 
 #### Repository Quality: 13%
 
@@ -107,7 +107,7 @@ This challenge is assessed on the following criteria:
 
 * Repository contains multiple descriptive commit messages.
 
-* Repository contains quality README file with description, screenshot, and link to deployed application.
+* <mark>Repository contains quality README file with description, screenshot, and link to deployed application.</mark>
 
 ### Review
 
